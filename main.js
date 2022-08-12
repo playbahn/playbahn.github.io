@@ -1,10 +1,10 @@
 const myImage = document.querySelector('img');
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute('src');
-    if ( mySrc === 'firefox1.svg.png') {
-        myImage.setAttribute('src','firefox2.png');
+    if ( mySrc === 'github.com/playbahn/playbahn.github.io/firefox1.svg.png') {
+        myImage.setAttribute('src','github.com/playbahn/playbahn.github.io/firefox2.png');
     } else {
-        myImage.setAttribute('src','firefox1.svg.png');
+        myImage.setAttribute('src','github.com/playbahn/playbahn.github.io/firefox1.svg.png');
     }
 }
 let myButton = document.querySelector('button');
