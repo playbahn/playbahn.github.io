@@ -5,7 +5,7 @@ html {
 header {
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 2cm;
+    font-size: 42px;
     background-color: skyblue;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -19,6 +19,7 @@ p {
     background-color: rgb(39, 39, 39);
     padding: 5px 20px 100px;
     box-sizing: border-box;
+    width: 100%;
 }
 #button {
     font-family: 'Montserrat', sans-serif;
